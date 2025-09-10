@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'DTM';
+  src: url(font/DTMREGULAR.ttf);
+}
+
+body {
+  font-family: 'DTM';
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 100vh;
+  color: white;
+  border: solid;
+  padding: 4em;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.page {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+
+.page.active {
+  display: flex;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #000000;
+  border: solid;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  font-family: 'DTM';
+}
+
+button:hover {
+  color: yellow;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 40px;
+}
