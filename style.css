@@ -49,6 +49,27 @@ button:hover {
   color: yellow;
 }
 
+.botao-especial {
+  width: 400px;
+  height: 50px;
+  overflow: hidden; 
+  background-color: #000; 
+  color: white; 
+  position: relative;
+}
+
+.texto-especial {
+  white-space: nowrap;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) translateX(-16%);
+}
+
+.botao-especial:hover .texto-especial{
+  transform: translateY(-50%) translateX(-120%);
+   transition: transform 5s linear;
+}
+
 h1, h2 {
   text-align: center;
 }
