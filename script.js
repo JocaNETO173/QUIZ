@@ -27,7 +27,7 @@ function responder(pergunta, correto) {
     showPage(currentPage);
   } else {
     // Página de resultado
-    document.getElementById("score").innerText = `Você acertou ${score} de 3 perguntas!`;
+    document.getElementById("score").innerText = `Você acertou ${score} de 7 perguntas!`;
     showPage(9);
   }
 }
